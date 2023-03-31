@@ -1,7 +1,7 @@
 Summary:	DRBL (Diskless Remote Boot in Linux) package
 Name:		drbl
 Version:	2.30.5
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Networking/Other
 URL:		https://drbl.org
