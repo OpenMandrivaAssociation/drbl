@@ -35,7 +35,7 @@ For more details, check
 
 %files
 %doc doc/*
-%_bindir/*
+%_sbindir/*
 %_datadir/%name
 %_sysconfdir/%name
 %_datadir/gdm/themes/drbl-gdm
