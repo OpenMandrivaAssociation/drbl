@@ -25,17 +25,19 @@ For more details, check
 2. http://drbl.nchc.org.tw (Traditional Chinese - Taiwan) 
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %make_build all
 
 %install
 %make_install
+mv %{buildroot}%{_prefix}/sbin/* %{buildroot}%{_bindir}/
+rmdir %{buildroot}%{_prefix}/sbin
 
 %files
 %doc doc/*
-%_sbindir/*
+%_bindir/*
 %_datadir/%name
 %_sysconfdir/%name
 %_datadir/gdm/themes/drbl-gdm
