@@ -35,7 +35,6 @@ For more details, check
 
 %files
 %doc doc/*
-%_sbindir/*
 %_bindir/*
 %_datadir/%name
 %_sysconfdir/%name
